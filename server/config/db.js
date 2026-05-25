@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-// Create connection
+// Create a connection
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root', // Default XAMPP user
